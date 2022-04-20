@@ -52,7 +52,7 @@ See [`CONTRIBUTING.md`][contributing] for instructions on how to contribute.
 [author]: https://www.reflectiveearth.org
 [conduct]: CODE_OF_CONDUCT.md
 [contributing]: CONTRIBUTING.md
-[discussions]: https://github.com/ReflectiveEarth/reflective-potential/discussions
+[discussions]: https://github.com/ReflectiveEarth/reflective-seasons/discussions
 [license]: LICENSE.md
 [rubberduck]: https://rubberduckdebugging.com
 [loom]: https://loom.com
