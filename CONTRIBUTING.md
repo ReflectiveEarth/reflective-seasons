@@ -54,7 +54,7 @@ Feature requests must:
 ## Working with the codebase
 
 Now that you have an issue you want to fix or feature to contribute, you may
-need to learn how to work with GitHub and the `reflective-potential` codebase.
+need to learn how to work with GitHub and the `reflective-seasons` codebase.
 
 ### Version control, Git, and GitHub
 
@@ -88,12 +88,12 @@ need your own fork to work on the code.* Go to the project page and hit the
 Fork button in the upper right. Clone your fork to your machine:
 
 ```
-git clone https://github.com/{your-user-name}/reflective-potential.git
-cd reflective-potential
-git remote add upstream https://github.com/reflectiveearth/reflective-potential.git
+git clone https://github.com/{your-user-name}/reflective-seasons.git
+cd reflective-seasons
+git remote add upstream https://github.com/reflectiveearth/reflective-seasons.git
 ```
 
-This creates the directory `reflective-potential` and connects your repository
+This creates the directory `reflective-seasons` and connects your repository
 to the upstream (main project) repository.
 
 ### Development environment
@@ -139,7 +139,7 @@ git fetch upstream
 git merge upstream/main
 ```
 
-This will combine your commits with the latest `reflective-potential` git main
+This will combine your commits with the latest `reflective-seasons` git main
 branch. If this leads to merge conflicts, you must resolve these before
 submitting your pull request. If you have uncommitted changes, you will need
 to git stash them prior to updating. This will effectively store your changes,
@@ -211,14 +211,14 @@ If you added the upstream repository as described above you will see something
 like the following:
 
 ```
-origin  git@github.com:{your-user-name}/reflective-potential.git (fetch)
-origin  git@github.com:{your-user-name}/reflective-potential.git (push)
-upstream  git://github.com/reflectiveearth/reflective-potential.git (fetch)
-upstream  git://github.com/reflectiveearth/reflective-potential.git (push)
+origin  git@github.com:{your-user-name}/reflective-seasons.git (fetch)
+origin  git@github.com:{your-user-name}/reflective-seasons.git (push)
+upstream  git://github.com/reflectiveearth/reflective-seasons.git (fetch)
+upstream  git://github.com/reflectiveearth/reflective-seasons.git (push)
 ```
 
-Now you have pushed your code to your fork of reflective-potential on GitHub,
-but it is not yet a part of the main reflective-potential project. For that to
+Now you have pushed your code to your fork of reflective-seasons on GitHub,
+but it is not yet a part of the main reflective-seasons project. For that to
 happen, a pull request needs to be submitted on GitHub.
 
 ### Make a pull request
@@ -229,7 +229,7 @@ community and can be reviewed and eventually merged into the main version.
 This pull request and its associated changes will eventually be committed to
 the main branch and available in the next release. To submit a pull request:
 
-1. Navigate to your forked reflective-potential repository on GitHub
+1. Navigate to your forked reflective-seasons repository on GitHub
 2. Click on the *Pull Request* button
 3. Click on the *Commits* and *Files Changed* tabs to make sure everything looks
    okay
@@ -292,7 +292,7 @@ git push origin --delete feature/short-description
 [issue]: https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
 [mamba]: https://mamba.readthedocs.io/en/latest/
 [miniconda]: https://docs.conda.io/en/latest/miniconda.html
-[repo]: https://github.com/ReflectiveEarth/reflective-potential
+[repo]: https://github.com/ReflectiveEarth/reflective-seasons
 [reprex]: https://stackoverflow.com/help/minimal-reproducible-example
 [signup]: https://github.com/signup/free
 [support]: SUPPORT.md
